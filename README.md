@@ -4,6 +4,7 @@ Repo for React Learning Courses on Pluralsight
 # Planned Courses: React Fundamentals & Authorication and Authorization
 
 15.10.2025: Foundamentals Module 3
+01.11.2025: Foundamentals Module 4 (Styling Components) --> (16.10.2025)
 
 
 # Aufsetzen des Environments
