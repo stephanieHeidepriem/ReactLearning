@@ -34,3 +34,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 #Befehle
 - npm run lint 
+
+## Zu beachten!
+- prop die an eine Komponente weitergegeben werden sind Readonly! Komponenten sollten niemals ihre eigenen Übergabeparameter ändern, weil das in die Hose geht mit den referenzierten Komponenten und Fehler verursacht, die sich durchziehen und schwer zu finden sind.
