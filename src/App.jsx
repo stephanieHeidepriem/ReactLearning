@@ -1,6 +1,7 @@
 import Banner from "./components/Banner"
 import "./App.css"
 import HouseList from "./components/HouseList"
+import { Suspense } from "react"
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <Banner>
         <div>Providing houses all over the world </div>
       </Banner>
-      <HouseList/>
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <HouseList/>
+      </Suspense>
     </>
   )
 }
