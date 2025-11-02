@@ -38,3 +38,10 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Zu beachten!
 - prop die an eine Komponente weitergegeben werden sind Readonly! Komponenten sollten niemals ihre eigenen Übergabeparameter ändern, weil das in die Hose geht mit den referenzierten Komponenten und Fehler verursacht, die sich durchziehen und schwer zu finden sind.
+
+When tu Use React.memo
+- when it's faster
+- Mesure
+- Pure functional component
+- Renders often with the same prop values
+- jsx should be easy

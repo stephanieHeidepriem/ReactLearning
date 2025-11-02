@@ -1,3 +1,4 @@
+import React from "react";
 import currencyFormatter from "../helpers/currencyFormatter";
 
 const HouseRow = ({house}) => {
