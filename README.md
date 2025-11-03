@@ -7,6 +7,8 @@ Repo for React Learning Courses on Pluralsight
 01.11.2025: Foundamentals Module 4 (Styling Components) --> (16.10.2025)
 02.11.2025: Foundamentals Module 5 (Hooks, Props and Stat) --> (17.10.2025)
 02.11.2025: Foundamentals Module 6 (Component Rendering and Side Effects) --> (18.10.2025)
+02.11.2025: Foundamentals Module 7 (Conditional Rendering and Shared State) --> (19.10.2025)
+03.11.2025: Foundamentals Module 8 (Context and Navigation) --> (20.10.2025)
 
 
 # Aufsetzen des Environments

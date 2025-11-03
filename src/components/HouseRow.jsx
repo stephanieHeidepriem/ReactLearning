@@ -1,18 +1,18 @@
 import currencyFormatter from "../helpers/currencyFormatter";
+import { useNavigate } from "react-router";
 
-const HouseRow = ({ house, selectHouse }) => {
-  //uncomment to test error boundary
-  //throw new Error();
+const HouseRow = ({ house }) => {
+  const navigate = useNavigate();
   return (
-      <tr onClick={() => selectHouse(house)}>
-        <td>{house.address}</td>
-        <td>{house.country}</td>
-        {house.price && (
-          <td className={`${house.price >= 500000 ? "text-primary" : ""}`}>
-            {currencyFormatter.format(house.price)}
-          </td>
-        )}
-      </tr>
+    <tr onClick={() => navigate("/house", { state: { house } })}>
+      <td>{house.address}</td>
+      <td>{house.country}</td>
+      {house.price && (
+        <td className={`${house.price >= 500000 ? "text-primary" : ""}`}>
+          {currencyFormatter.format(house.price)}
+        </td>
+      )}
+    </tr>
   );
 };
 

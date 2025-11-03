@@ -1,6 +1,9 @@
+import { useLocation } from "react-router";
 import currencyFormatter from "../helpers/currencyFormatter";
 
-const House = ({ house }) => {
+const House = () => {
+  const location = useLocation();
+  const { house } = location.state;
   return (
     <>
       <div className="row">
