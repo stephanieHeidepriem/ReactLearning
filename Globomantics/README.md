@@ -24,6 +24,7 @@ Repo for React Learning Courses on Pluralsight
 Repository mit fertigem Code: https://github.com/RolandGuijt/react-fundamentals
 - npm install
 - npm run dev
+Repository mit fertigem Code Authentication and Authorization: https://github.com/RolandGuijt/ps-reactauth
 
 
 # React + Vite
