@@ -9,6 +9,9 @@ Repo for React Learning Courses on Pluralsight
 02.11.2025: Foundamentals Module 6 (Component Rendering and Side Effects) --> (18.10.2025)
 02.11.2025: Foundamentals Module 7 (Conditional Rendering and Shared State) --> (19.10.2025)
 03.11.2025: Foundamentals Module 8 (Context and Navigation) --> (20.10.2025)
+04.11.2025: Foundamentals Module 9 (User Input and Forms) --> (21.10.2025)
+04.11.2025: Foundamentals Module 10 (Server-side React and Next.js) --> (22.10.2025)
+04.11.2025: Foundamentals Module 11 (Application Design) --> (23.10.2025)
 
 
 # Aufsetzen des Environments
